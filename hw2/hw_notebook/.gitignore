@@ -1,0 +1,4 @@
+*.tar.gz
+results/
+hw2-dataset/
+traffic-signs
