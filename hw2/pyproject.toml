@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "hw_notebook"
+version = "1.0.0"
+description = "HW2 - Mark up of 'Traffic Signs' dataset | ITMO University Data Engineering Course"
+authors = ["Daniel Kopecky <danielkopecky@protonmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.10.*"
+jupyter = "^1.0.0"
+notebook = "^7.0.6"
+shapely = "^2.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
