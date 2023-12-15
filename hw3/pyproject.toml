@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hw_notebook"
+version = "1.0.0"
+description = "HW3 - Working with a multimodal dataset | ITMO University Data Engineering Course"
+authors = ["Daniel Kopecky <danielkopecky@protonmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.10.*"
+notebook = "^7.0.6"
+pandas = "^2.1.4"
+nltk = "^3.8.1"
+seaborn = "^0.13.0"
+matplotlib = "^3.8.2"
+wordcloud = "^1.9.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
